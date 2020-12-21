@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="@192.168.28.87" uuid="8f42ff51-c469-4648-b2fe-c3cc143b1685">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.28.87:10090</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="mqtt@192.168.28.87" uuid="cfd128d8-deb1-4958-a7e3-f5887198acdb">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.28.87:10090/mqtt</jdbc-url>
+    </data-source>
+  </component>
+</project>

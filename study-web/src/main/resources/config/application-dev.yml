@@ -1,0 +1,24 @@
+server:
+  port: 10000
+
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.28.88:10090/mqtt?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mqtt:
+  enabled: true
+  username: root
+  password: 123456
+  url: tcp://192.168.28.88:15005
+  producer:
+    clientId: server
+    defaultTopic: default
+  consumer:
+    clientId: client
+    defaultTopic: default

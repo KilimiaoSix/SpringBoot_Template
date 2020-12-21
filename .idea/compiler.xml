@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="study-service" />
+        <module name="study-mqtt" />
+        <module name="study-mapper" />
+        <module name="study-web" />
+        <module name="study-serviceimpl" />
+        <module name="study-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="study" target="1.8" />
+      <module name="study-common" target="1.8" />
+      <module name="study-mapper" target="1.8" />
+      <module name="study-mqtt" target="1.8" />
+      <module name="study-service" target="1.8" />
+      <module name="study-serviceimpl" target="1.8" />
+      <module name="study-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="study-common" options="-parameters" />
+      <module name="study-mapper" options="-parameters" />
+      <module name="study-mqtt" options="-parameters" />
+      <module name="study-service" options="-parameters" />
+      <module name="study-serviceimpl" options="-parameters" />
+      <module name="study-web" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/study-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study-mapper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study-mapper/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study-mqtt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study-serviceimpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study-serviceimpl/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study-web/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

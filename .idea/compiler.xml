@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="study-service" />
-        <module name="study-mqtt" />
-        <module name="study-mapper" />
         <module name="study-web" />
         <module name="study-serviceimpl" />
+        <module name="study-mqtt" />
+        <module name="study-mapper" />
         <module name="study-common" />
       </profile>
     </annotationProcessing>
@@ -26,6 +26,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="study" options="-parameters" />
       <module name="study-common" options="-parameters" />
       <module name="study-mapper" options="-parameters" />
       <module name="study-mqtt" options="-parameters" />
